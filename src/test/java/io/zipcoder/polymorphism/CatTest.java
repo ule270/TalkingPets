@@ -38,23 +38,23 @@ public class CatTest {
     @Test
     public void TestConstructor(){
         //Given
-        String name = "Nina";
+        String givenName = "Nina";
 
         //When
-        Cat cat = new Cat(name);
+        Cat cat = new Cat(givenName);
         String retrievedName = cat.getName();
 
         //Then
-        Assert.assertEquals(name, retrievedName);
+        Assert.assertEquals(givenName, retrievedName);
     }
 
     @Test
     public void TestNullaryConstructor() {
         //Given
-        String name = "Nameless";
+        String name = null;
 
         //When
-        Cat cat = new Cat(name);
+        Cat cat = new Cat(null);
         String retrievedName = cat.getName();
 
         //Then

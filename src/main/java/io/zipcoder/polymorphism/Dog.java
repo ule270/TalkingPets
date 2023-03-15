@@ -11,7 +11,7 @@ public class Dog extends Pet{
     public String getName() {
         return name;
     }
-    public String Speak(){
+    public String speak(){
         String speak = "Woof woof";
         return speak;
     }

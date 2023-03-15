@@ -23,7 +23,7 @@ public class DogTest {
 
     @Test
     public void TestDogSpeak(){
-        Dog dog = new Dog(null);
+        Dog dog = new Dog("steve");
         String expected = "Woof woof";
         dog.speak();
         String actual = dog.speak();
@@ -52,7 +52,7 @@ public class DogTest {
     @Test
     public void TestNullaryConstructor() {
         //Given
-        String givenName = "Nameless";
+        String givenName = null;
 
         //When
         Dog dog = new Dog(null);
@@ -61,5 +61,4 @@ public class DogTest {
         //Then
         Assert.assertEquals(givenName, retrievedName);
     }
-
 }

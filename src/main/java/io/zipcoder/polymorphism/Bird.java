@@ -12,7 +12,7 @@ public class Bird extends Pet{
     public String getName() {
         return name;
     }
-    public String Speak(){
+    public String speak(){
         String speak = "Watch it! I'm flying over here!";
         return speak;
     }
