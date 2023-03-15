@@ -22,6 +22,11 @@ public class DogTest {
     }
 
     @Test
+    public void TestThatDogInheritsFromPet() {
+
+    }
+
+    @Test
     public void TestConstructor(){
 
     }
