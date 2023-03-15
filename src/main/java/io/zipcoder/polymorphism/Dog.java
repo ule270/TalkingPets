@@ -7,4 +7,12 @@ public class Dog extends Pet{
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+    public String Speak(){
+        String speak = "Woof woof";
+        return speak;
+    }
 }
