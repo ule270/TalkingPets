@@ -50,7 +50,7 @@ public class BirdTest {
     @Test
     public void TestNullaryConstructor() {
         //Given
-        String givenName = "Nameless";
+        String givenName = null;
 
         //When
         Bird bird = new Bird(null);

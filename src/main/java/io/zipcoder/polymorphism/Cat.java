@@ -1,8 +1,6 @@
 package io.zipcoder.polymorphism;
 
 public class Cat extends Pet{
-    String name;
-
     public Cat(String name) {
         super(name);
     }

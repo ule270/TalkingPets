@@ -7,11 +7,10 @@ public class Pet {
     }
 
 
-//    public static Dog petType(Dog dog) {
-//        this.dog = dog;
-//    }
-    //The Pet class must have a name field with setters and getters.
-
+    public static Dog petType(Dog dog) {
+        this.dog = dog;
+    }
+//    The Pet class must have a name field with setters and getters.
 
     //The Pet class must have a speak method that each subclass overrides.
     public String speak(){
