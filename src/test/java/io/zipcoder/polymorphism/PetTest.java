@@ -10,9 +10,9 @@ public class PetTest {
 
 //    @Test
 //    public void TestGetPetType() {
-//        Pet pet = new Pet(null);
-//        boolean expected = true;
-//        boolean actual = Pet.petType(pet);
+//        Dog dog = new Dog("Rover");
+//        Dog expected = dog;
+//        Dog actual = Pet.petType(dog);
 //        Assert.assertEquals(expected, actual);
 //    }
 

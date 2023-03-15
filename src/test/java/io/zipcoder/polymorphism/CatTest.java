@@ -2,7 +2,6 @@ package io.zipcoder.polymorphism;
 
 import org.junit.Assert;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class CatTest {
 
@@ -24,8 +23,9 @@ public class CatTest {
     public void TestCatSpeak(){
         Cat cat = new Cat(null);
         String expected = "Meeeeow";
-        cat.speak();
+
         String actual = cat.speak();
+
         Assert.assertEquals(expected, actual);
     }
 
@@ -38,27 +38,27 @@ public class CatTest {
     @Test
     public void TestConstructor(){
         //Given
-        String givenName = "Nina";
+        String name = "Nina";
 
         //When
-        Cat cat = new Cat(givenName);
+        Cat cat = new Cat(name);
         String retrievedName = cat.getName();
 
         //Then
-        Assert.assertEquals(givenName, retrievedName);
+        Assert.assertEquals(name, retrievedName);
     }
 
     @Test
     public void TestNullaryConstructor() {
         //Given
-        String givenName = "Nameless";
+        String name = "Nameless";
 
         //When
-        Cat cat = new Cat();
+        Cat cat = new Cat(name);
         String retrievedName = cat.getName();
 
         //Then
-        Assert.assertEquals(givenName, retrievedName);
+        Assert.assertEquals(name, retrievedName);
     }
 
 }
