@@ -1,40 +1,18 @@
 package io.zipcoder.polymorphism;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class PetTest {
-    @Test
-    public void TestGetPetName(){
-
-    }
 
     @Test
     public void TestGetPetType() {
-
-    }
-
-    @Test
-    public void TestSetPetName(){
-
-    }
-
-    @Test
-    public void TestPetSpeak(){
-
-    }
-
-    @Test
-    public void TestConstructor(){
-        //Given
-
-
-    }
-
-    @Test
-    public void TestNullaryConstructor() {
-
+        Pet pet = new Pet(null);
+        boolean expected = true;
+        boolean actual = Pet.petType(pet);
+        Assert.assertEquals(expected, actual);
     }
 
 }
