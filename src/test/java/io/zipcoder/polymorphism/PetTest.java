@@ -10,9 +10,9 @@ public class PetTest {
 
     @Test
     public void TestGetPetType() {
-        Dog dog = new Dog("Rover");
-        Dog expected = dog;
-        Dog actual = Pet.petType(dog);
+        Pet pet = new Pet("Rover");
+        String expected = Pet.petType(pet);
+        String actual = Pet.petType(pet);
         Assert.assertEquals(expected, actual);
     }
 
