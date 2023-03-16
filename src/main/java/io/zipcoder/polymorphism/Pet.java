@@ -28,7 +28,6 @@ public class Pet {
         return type;
     }
 
-//    The Pet class must have a name field with setters and getters.
 
     //The Pet class must have a speak method that each subclass overrides.
     public String speak(){
